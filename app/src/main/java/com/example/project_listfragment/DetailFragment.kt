@@ -19,7 +19,7 @@ class DetailFragment: Fragment() {
         val imageView = view?.findViewById<ImageView>(R.id.imageView2)
     }
     // обновление текстового поля
-    fun setSelectzdItem(selectedItem: String?) {
+    fun setSelectedItem(selectedItem: String?) {
         val views = view?.findViewById<TextView>(R.id.detailsText)
         val imageView = view?.findViewById<ImageView>(R.id.imageView2)
         when(selectedItem){
